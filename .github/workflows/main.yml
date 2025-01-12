@@ -17,4 +17,4 @@ jobs:
 
     - name: Executar testes
       run: |
-               python semana-13-PT3018997/testes.py
+               python testes.py
