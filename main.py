@@ -6,7 +6,7 @@ alunos.append(Aluno('Joao', 'Pedro', 11))
 alunos.append(Aluno('Maria', 'Silva', 7))
 alunos.append(Aluno('Carlos', 'Santos', 8))
 alunos.append(Aluno('Luisa', 'Fernandes', 9))
-alunos.append(Aluno('Antonio', 'Oliveira', 6))
+alunos.append(Aluno('Pedro', 'Oliveira', 6))
 
 turmaObject = Turma()
 turmaObject.cadastrarAlunos(alunos)
