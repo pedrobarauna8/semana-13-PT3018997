@@ -1,0 +1,20 @@
+name: Python Workflow
+on: [push, pull_request]
+
+jobs:
+  test:
+    name: Testes
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do código
+      uses: actions/checkout@v2
+
+    - name: Configurar ambiente Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Executar testes
+      run: |
+               python semana-13-aula-PT3018997/testes.py
